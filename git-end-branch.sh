@@ -1,7 +1,9 @@
-#!
+#!/usr/bin/env bash
 
-$BRANCH = $1
-$MAIN = "main"
+BRANCH=$1
+MAIN="main"
+
+echo $BRANCH
 
 git checkout $MAIN
 git pull
