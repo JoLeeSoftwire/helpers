@@ -3,7 +3,7 @@
 $BRANCH = $1
 $MAIN = "main"
 
-git checkout $NAME_OF_MAIN
+git checkout $MAIN
 git pull
 # TODO: add binary toggle for no-ff default false
 git merge $BRANCH
