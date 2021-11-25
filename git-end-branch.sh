@@ -3,8 +3,6 @@
 BRANCH=$1
 MAIN="main"
 
-echo $BRANCH
-
 git checkout $MAIN
 git pull
 # TODO: add binary toggle for no-ff default false
